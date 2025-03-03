@@ -1,0 +1,415 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Haévene Conciergerie - Accueil">
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="fade-in">Bienvenue chez <span>Haévene</span></h1>
+        <p class="slide-in">Votre conciergerie de confiance pour une gestion locative sans souci</p>
+        <div class="hero-buttons">
+          <a href="/services" class="btn fade-in">Découvrir nos services</a>
+          <a href="/contact" class="btn btn-outline fade-in">Nous contacter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro">
+    <div class="container">
+      <div class="intro-content">
+        <div class="intro-text">
+          <h2 class="fade-in">Une conciergerie <span>différente</span></h2>
+          <p class="slide-in">Chez Haévene, nous comprenons les défis de la gestion locative saisonnière. Notre mission est de vous offrir une tranquillité d'esprit totale grâce à des services personnalisés et de qualité.</p>
+          <a href="/a-propos" class="btn fade-in">En savoir plus</a>
+        </div>
+        <div class="intro-image fade-in">
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Intérieur élégant d'un appartement" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services-preview">
+    <div class="container">
+      <h2 class="section-title fade-in">Nos services</h2>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon">🏠</div>
+          <h3>Gestion locative</h3>
+          <p>Gestion complète de vos annonces et réservations sur les plateformes de location.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">🧹</div>
+          <h3>Ménage professionnel</h3>
+          <p>Service de nettoyage complet entre chaque séjour pour un logement impeccable.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">🛏️</div>
+          <h3>Blanchisserie</h3>
+          <p>Linge de maison frais et propre pour chaque nouvel arrivant.</p>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">🔑</div>
+          <h3>Check-in / Check-out</h3>
+          <p>Accueil personnalisé de vos voyageurs et gestion des départs.</p>
+        </div>
+      </div>
+      <div class="services-cta">
+        <a href="/services" class="btn fade-in">Tous nos services</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title fade-in">Ce que disent nos clients</h2>
+      <div class="testimonials-slider">
+        <div class="testimonial fade-in">
+          <div class="testimonial-content">
+            <p>"Depuis que je travaille avec Haévene, la gestion de mon appartement est devenue un vrai plaisir. Je recommande vivement leurs services !"</p>
+            <div class="testimonial-author">
+              <h4>Sophie M.</h4>
+              <p>Propriétaire à Paris</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial fade-in">
+          <div class="testimonial-content">
+            <p>"Une équipe professionnelle et réactive qui a su s'adapter à mes besoins spécifiques. Merci pour votre excellent travail !"</p>
+            <div class="testimonial-author">
+              <h4>Thomas L.</h4>
+              <p>Propriétaire à Lyon</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content fade-in">
+        <h2>Prêt à simplifier la gestion de votre bien ?</h2>
+        <p>Contactez-nous dès aujourd'hui pour discuter de vos besoins et découvrir comment nous pouvons vous aider.</p>
+        <a href="/contact" class="btn">Demander un devis gratuit</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background-color: var(--color-beige);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: -80px; /* Adjust for header height */
+    padding-top: 80px;
+  }
+
+  .hero-content {
+    max-width: 700px;
+    padding: 2rem 0;
+  }
+
+  .hero h1 {
+    font-family: var(--font-secondary);
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .hero h1 span {
+    color: var(--color-green-dark);
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  /* Intro Section */
+  .intro {
+    padding: 6rem 0;
+    background-color: var(--color-white);
+  }
+
+  .intro-content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .intro-text {
+    flex: 1;
+  }
+
+  .intro-text h2 {
+    font-family: var(--font-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .intro-text h2 span {
+    color: var(--color-green-dark);
+  }
+
+  .intro-text p {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .intro-image {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .intro-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .intro-image:hover img {
+    transform: scale(1.05);
+  }
+
+  /* Services Preview Section */
+  .services-preview {
+    padding: 6rem 0;
+    background-color: var(--color-beige);
+  }
+
+  .section-title {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .service-card {
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .service-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-card h3 {
+    font-family: var(--font-secondary);
+    margin-bottom: 1rem;
+  }
+
+  .service-card p {
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .services-cta {
+    text-align: center;
+  }
+
+  /* Testimonials Section */
+  .testimonials {
+    padding: 6rem 0;
+    background-color: var(--color-white);
+  }
+
+  .testimonials-slider {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .testimonials-slider::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
+
+  .testimonial {
+    flex: 0 0 calc(50% - 1rem);
+    min-width: 300px;
+  }
+
+  .testimonial-content {
+    background-color: var(--color-beige);
+    padding: 2rem;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .testimonial-content p {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .testimonial-author h4 {
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+
+  .testimonial-author p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  /* CTA Section */
+  .cta {
+    padding: 6rem 0;
+    background-color: var(--color-green);
+  }
+
+  .cta-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .cta-content h2 {
+    font-family: var(--font-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-content p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+
+  .cta .btn {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+
+  .cta .btn:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .intro-content {
+      flex-direction: column;
+    }
+
+    .intro-text, .intro-image {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+    }
+
+    .hero-buttons {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .hero-buttons .btn {
+      width: 100%;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 2rem;
+    }
+
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .testimonial {
+      flex: 0 0 100%;
+    }
+
+    .cta-content h2 {
+      font-size: 2rem;
+    }
+  }
+</style>
+
+<script>
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  // Register ScrollTrigger plugin
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Animation for fade-in elements
+  gsap.utils.toArray('.fade-in').forEach((element) => {
+    gsap.from(element, {
+      opacity: 0,
+      y: 30,
+      duration: 1,
+      scrollTrigger: {
+        trigger: element,
+        start: "top 80%",
+        toggleActions: "play none none none"
+      }
+    });
+  });
+
+  // Animation for slide-in elements
+  gsap.utils.toArray('.slide-in').forEach((element) => {
+    gsap.from(element, {
+      opacity: 0,
+      x: -50,
+      duration: 1,
+      scrollTrigger: {
+        trigger: element,
+        start: "top 80%",
+        toggleActions: "play none none none"
+      }
+    });
+  });
+
+  // Hero section animations
+  gsap.from('.hero h1', { opacity: 0, y: 50, duration: 1, delay: 0.2 });
+  gsap.from('.hero p', { opacity: 0, y: 30, duration: 1, delay: 0.5 });
+  gsap.from('.hero-buttons', { opacity: 0, y: 30, duration: 1, delay: 0.8 });
+</script>

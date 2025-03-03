@@ -1,0 +1,514 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Haévene Conciergerie - Nos Offres" description="Découvrez nos formules et tarifs pour la gestion de votre bien en location saisonnière.">
+  <section class="page-header">
+    <div class="container">
+      <h1 class="fade-in">Nos Offres</h1>
+      <p class="slide-in">Des formules adaptées à vos besoins</p>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <div class="container">
+      <div class="pricing-intro">
+        <h2 class="fade-in">Choisissez la formule qui vous convient</h2>
+        <p class="slide-in">Nous proposons différentes formules pour répondre aux besoins spécifiques de chaque propriétaire. Que vous ayez besoin d'une gestion complète ou de services ponctuels, nous avons la solution adaptée à votre situation.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="pricing-card fade-in">
+          <div class="pricing-header">
+            <h3>Essentiel</h3>
+            <div class="pricing-price">
+              <span class="percentage">15%</span>
+              <span class="details">des revenus locatifs</span>
+            </div>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>Création et gestion des annonces</li>
+              <li>Communication avec les voyageurs</li>
+              <li>Gestion des réservations</li>
+              <li>Check-in / Check-out digital</li>
+              <li>Assistance téléphonique</li>
+              <li class="not-included">Ménage entre les séjours</li>
+              <li class="not-included">Blanchisserie</li>
+              <li class="not-included">Check-in en personne</li>
+              <li class="not-included">Maintenance et dépannage</li>
+            </ul>
+            <a href="/contact" class="btn">Demander un devis</a>
+          </div>
+        </div>
+
+        <div class="pricing-card popular fade-in">
+          <div class="popular-tag">Populaire</div>
+          <div class="pricing-header">
+            <h3>Premium</h3>
+            <div class="pricing-price">
+              <span class="percentage">20%</span>
+              <span class="details">des revenus locatifs</span>
+            </div>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>Création et gestion des annonces</li>
+              <li>Communication avec les voyageurs</li>
+              <li>Gestion des réservations</li>
+              <li>Check-in / Check-out digital ou en personne</li>
+              <li>Assistance téléphonique 7j/7</li>
+              <li>Ménage entre les séjours</li>
+              <li>Blanchisserie</li>
+              <li class="not-included">Maintenance et dépannage</li>
+              <li class="not-included">Conciergerie personnalisée</li>
+            </ul>
+            <a href="/contact" class="btn">Demander un devis</a>
+          </div>
+        </div>
+
+        <div class="pricing-card fade-in">
+          <div class="pricing-header">
+            <h3>Tout Inclus</h3>
+            <div class="pricing-price">
+              <span class="percentage">25%</span>
+              <span class="details">des revenus locatifs</span>
+            </div>
+          </div>
+          <div class="pricing-body">
+            <ul>
+              <li>Création et gestion des annonces</li>
+              <li>Communication avec les voyageurs</li>
+              <li>Gestion des réservations</li>
+              <li>Check-in / Check-out en personne</li>
+              <li>Assistance téléphonique 24h/24 et 7j/7</li>
+              <li>Ménage entre les séjours</li>
+              <li>Blanchisserie</li>
+              <li>Maintenance et dépannage</li>
+              <li>Conciergerie personnalisée</li>
+            </ul>
+            <a href="/contact" class="btn">Demander un devis</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="additional-services">
+    <div class="container">
+      <h2 class="section-title fade-in">Services à la carte</h2>
+      <p class="services-intro slide-in">Besoin de services ponctuels ? Nous proposons également des prestations à la carte :</p>
+
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-header">
+            <h3>Ménage</h3>
+            <p class="service-price">À partir de 80€</p>
+          </div>
+          <p>Service de nettoyage complet entre chaque séjour, adapté à la taille de votre logement.</p>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-header">
+            <h3>Blanchisserie</h3>
+            <p class="service-price">À partir de 40€</p>
+          </div>
+          <p>Lavage et repassage du linge de maison (draps, serviettes, etc.).</p>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-header">
+            <h3>Check-in</h3>
+            <p class="service-price">50€ / séjour</p>
+          </div>
+          <p>Accueil personnalisé de vos voyageurs et présentation du logement.</p>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-header">
+            <h3>Maintenance</h3>
+            <p class="service-price">Sur devis</p>
+          </div>
+          <p>Intervention pour résoudre les problèmes techniques dans votre logement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container">
+      <h2 class="section-title fade-in">Questions fréquentes</h2>
+
+      <div class="faq-grid">
+        <div class="faq-item fade-in">
+          <h3>Comment sont calculés les frais de gestion ?</h3>
+          <p>Nos frais de gestion sont calculés en pourcentage des revenus locatifs générés par votre bien. Ce pourcentage varie selon la formule choisie et les services inclus.</p>
+        </div>
+
+        <div class="faq-item fade-in">
+          <h3>Puis-je changer de formule en cours de contrat ?</h3>
+          <p>Oui, vous pouvez modifier votre formule à tout moment avec un préavis d'un mois. Nous adaptons nos services en fonction de l'évolution de vos besoins.</p>
+        </div>
+
+        <div class="faq-item fade-in">
+          <h3>Y a-t-il un engagement de durée ?</h3>
+          <p>Nos contrats sont généralement établis pour une durée d'un an, renouvelable tacitement. Vous pouvez toutefois y mettre fin avec un préavis de trois mois.</p>
+        </div>
+
+        <div class="faq-item fade-in">
+          <h3>Les tarifs incluent-ils les fournitures ?</h3>
+          <p>Les produits d'entretien et les consommables de base sont inclus dans nos tarifs. Pour les autres fournitures (linge de maison, équipements, etc.), nous pouvons les facturer séparément ou les acheter pour votre compte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content fade-in">
+        <h2>Besoin d'une offre personnalisée ?</h2>
+        <p>Chaque bien est unique, contactez-nous pour obtenir une proposition adaptée à votre situation spécifique.</p>
+        <a href="/contact" class="btn">Contactez-nous</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* Page Header */
+  .page-header {
+    background-color: var(--color-beige);
+    padding: 8rem 0 4rem;
+    text-align: center;
+  }
+
+  .page-header h1 {
+    font-family: var(--font-secondary);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .page-header p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  /* Pricing Section */
+  .pricing {
+    padding: 6rem 0;
+  }
+
+  .pricing-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 4rem;
+  }
+
+  .pricing-intro h2 {
+    font-family: var(--font-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pricing-intro p {
+    line-height: 1.6;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .pricing-card {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    position: relative;
+    border: 1px solid #eee;
+  }
+
+  .pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  }
+
+  .pricing-card.popular {
+    border: 2px solid var(--color-green);
+    transform: scale(1.05);
+  }
+
+  .pricing-card.popular:hover {
+    transform: scale(1.05) translateY(-10px);
+  }
+
+  .popular-tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--color-green);
+    color: var(--color-black);
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-bottom-left-radius: 10px;
+  }
+
+  .pricing-header {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--color-beige);
+  }
+
+  .pricing-header h3 {
+    font-family: var(--font-secondary);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .pricing-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .percentage {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .details {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+
+  .pricing-body {
+    padding: 2rem;
+  }
+
+  .pricing-body ul {
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+
+  .pricing-body ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .pricing-body ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--color-green-dark);
+    font-weight: bold;
+  }
+
+  .pricing-body ul li.not-included {
+    color: #999;
+    text-decoration: line-through;
+  }
+
+  .pricing-body ul li.not-included::before {
+    content: "✕";
+    color: #999;
+  }
+
+  .pricing-body .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Additional Services Section */
+  .additional-services {
+    padding: 6rem 0;
+    background-color: var(--color-beige);
+  }
+
+  .section-title {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .services-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    line-height: 1.6;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  .service-card {
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .service-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .service-header h3 {
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+  }
+
+  .service-price {
+    font-weight: 600;
+    color: var(--color-green-dark);
+  }
+
+  .service-card p {
+    line-height: 1.6;
+    color: #666;
+  }
+
+  /* FAQ Section */
+  .faq {
+    padding: 6rem 0;
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .faq-item {
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  .faq-item h3 {
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--color-black);
+  }
+
+  .faq-item p {
+    line-height: 1.6;
+    color: #666;
+  }
+
+  /* CTA Section */
+  .cta {
+    padding: 6rem 0;
+    background-color: var(--color-green);
+  }
+
+  .cta-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .cta-content h2 {
+    font-family: var(--font-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-content p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+
+  .cta .btn {
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+
+  .cta .btn:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .pricing-card.popular {
+      transform: scale(1);
+    }
+
+    .pricing-card.popular:hover {
+      transform: translateY(-10px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .page-header h1 {
+      font-size: 2.5rem;
+    }
+
+    .pricing-intro h2, .section-title, .cta-content h2 {
+      font-size: 2rem;
+    }
+
+    .faq-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<script>
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  // Register ScrollTrigger plugin
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Animation for fade-in elements
+  gsap.utils.toArray('.fade-in').forEach((element) => {
+    gsap.from(element, {
+      opacity: 0,
+      y: 30,
+      duration: 1,
+      scrollTrigger: {
+        trigger: element,
+        start: "top 80%",
+        toggleActions: "play none none none"
+      }
+    });
+  });
+
+  // Animation for slide-in elements
+  gsap.utils.toArray('.slide-in').forEach((element) => {
+    gsap.from(element, {
+      opacity: 0,
+      x: -50,
+      duration: 1,
+      scrollTrigger: {
+        trigger: element,
+        start: "top 80%",
+        toggleActions: "play none none none"
+      }
+    });
+  });
+</script>

@@ -1,0 +1,380 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Haévene Conciergerie - Contact" description="Contactez-nous pour en savoir plus sur nos services de conciergerie ou pour obtenir un devis personnalisé.">
+  <section class="page-header">
+    <div class="container">
+      <h1 class="fade-in">Contact</h1>
+      <p class="slide-in">Nous sommes à votre écoute</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info fade-in">
+          <h2>Parlons de votre projet</h2>
+          <p>Vous souhaitez en savoir plus sur nos services ou obtenir un devis personnalisé ? N'hésitez pas à nous contacter. Notre équipe se fera un plaisir de vous répondre dans les plus brefs délais.</p>
+          
+          <div class="info-item">
+            <div class="info-icon">📧</div>
+            <div class="info-text">
+              <h3>Email</h3>
+              <p>contact@haevene.com</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">📱</div>
+            <div class="info-text">
+              <h3>Téléphone</h3>
+              <p>+33 6 XX XX XX XX</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <h3>Adresse</h3>
+              <p>123 Avenue des Conciergeries<br>75001 Paris, France</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="contact-form fade-in">
+          <h2>Envoyez-nous un message</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nom complet</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Téléphone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Sujet</label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Choisissez un sujet</option>
+                <option value="devis">Demande de devis</option>
+                <option value="information">Demande d'information</option>
+                <option value="partenariat">Proposition de partenariat</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <div class="map-container fade-in">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937604!2d2.3414702!3d48.8615162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sfr!2sfr!4v1620123456789!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section class="faq">
+    <div class="container">
+      <h2 class="section-title fade-in">Questions fréquentes</h2>
+
+      <div class="faq-grid">
+        <div class="faq-item fade-in">
+          <h3>Quel est le délai de réponse ?</h3>
+          <p>Nous nous engageons à répondre à toutes les demandes dans un délai de 24 à 48 heures ouvrées.</p>
+        </div>
+
+        <div class="faq-item fade-in">
+          <h3>Comment obtenir un devis personnalisé ?</h3>
+          <p>Vous pouvez nous contacter via le formulaire ci-dessus en sélectionnant "Demande de devis" comme sujet. N'oubliez pas de préciser les détails de votre bien et vos besoins spécifiques.</p>
+        </div>
+
+        <div class="faq-item fade-in">
+          <h3>Quelle zone géographique couvrez-vous ?</h3>
+          <p>Nous intervenons principalement à Paris et en région parisienne. N'hésitez pas à nous contacter pour vérifier si votre bien est dans notre zone de couverture.</p>
+        </div>
+
+        <div class="faq-item fade-in">
+          <h3>Puis-je vous rencontrer avant de signer un contrat ?</h3>
+          <p>Absolument ! Nous privilégions toujours une rencontre en personne ou un appel vidéo pour discuter de vos besoins et vous présenter nos services en détail.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  /* Page Header */
+  .page-header {
+    background-color: var(--color-beige);
+    padding: 8rem 0 4rem;
+    text-align: center;
+  }
+
+  .page-header h1 {
+    font-family: var(--font-secondary);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .page-header p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 6rem 0;
+  }
+
+  .contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  .contact-info h2, .contact-form h2 {
+    font-family: var(--font-secondary);
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-info p {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .info-item {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+
+  .info-icon {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+  }
+
+  .info-text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .info-text p {
+    margin: 0;
+    color: #666;
+  }
+
+  .social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-beige);
+    color: var(--color-black);
+    transition: all 0.3s ease;
+  }
+
+  .social-link:hover {
+    background-color: var(--color-green);
+    transform: translateY(-3px);
+  }
+
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  input, select, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--color-green);
+  }
+
+  button.btn {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  /* Map Section */
+  .map-section {
+    padding-bottom: 6rem;
+  }
+
+  .map-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  /* FAQ Section */
+  .faq {
+    padding: 6rem 0;
+    background-color: var(--color-beige);
+  }
+
+  .section-title {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+  }
+
+  .faq-item {
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  }
+
+  .faq-item h3 {
+    font-family: var(--font-secondary);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--color-black);
+  }
+
+  .faq-item p {
+    line-height: 1.6;
+    color: #666;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .contact-content {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .page-header h1 {
+      font-size: 2.5rem;
+    }
+
+    .contact-info h2, .contact-form h2, .section-title {
+      font-size: 2rem;
+    }
+
+    .faq-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<script>
+  import { gsap } from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  // Register ScrollTrigger plugin
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Animation for fade-in elements
+  gsap.utils.toArray('.fade-in').forEach((element) => {
+    gsap.from(element, {
+      opacity: 0,
+      y: 30,
+      duration: 1,
+      scrollTrigger: {
+        trigger: element,
+        start: "top 80%",
+        toggleActions: "play none none none"
+      }
+    });
+  });
+
+  // Animation for slide-in elements
+  gsap.utils.toArray('.slide-in').forEach((element) => {
+    gsap.from(element, {
+      opacity: 0,
+      x: -50,
+      duration: 1,
+      scrollTrigger: {
+        trigger: element,
+        start: "top 80%",
+        toggleActions: "play none none none"
+      }
+    });
+  });
+
+  // Form submission handling
+  const contactForm = document.getElementById('contactForm');
+  
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      // In a real implementation, you would send the form data to a server
+      // For this demo, we'll just show a success message
+      
+      const formData = new FormData(contactForm);
+      const formValues = Object.fromEntries(formData.entries());
+      
+      console.log('Form submitted:', formValues);
+      
+      // Show success message
+      contactForm.innerHTML = `
+        <div class="success-message">
+          <h3>Message envoyé avec succès !</h3>
+          <p>Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.</p>
+        </div>
+      `;
+    });
+  }
+</script>
